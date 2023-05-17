@@ -19,10 +19,7 @@ public class AppleMacEmailFriend extends Utils{
     }
 
     public void successfullymassegeapper(){
-      //  String expectedsendIteamtofriendMGS = loadProp.getProperty("SendIteamToFriend");
-      //  String actualMessage = getTextFromelement(_mesage);
-      //  System.out.println("My mesage:"+actualMessage);// result willl come out
-      //  Assert.assertEquals(actualMessage,expectedsendIteamtofriendMGS,"Your message has been sent.");
+
         Assert.assertEquals(getTextFromelement(_mesage),loadProp.getProperty("SendIteamToFriend"));
         }
 }

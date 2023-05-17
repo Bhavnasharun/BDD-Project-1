@@ -7,6 +7,7 @@ public class AppleMackBook extends Utils{
     public void emailAFriend() {
         clickOnElement(_emailAFriend);
     }
+    //
 
 
 

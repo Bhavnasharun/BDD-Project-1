@@ -44,3 +44,4 @@ public class RegisterPage extends Utils{
         Select select = new Select(driver.findElement(By.name("country")));
     }
 }
+//

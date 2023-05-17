@@ -19,6 +19,7 @@ public class LoadProp extends Utils{
         return prop.getProperty(key);
     }
 }
+//
 
 
 

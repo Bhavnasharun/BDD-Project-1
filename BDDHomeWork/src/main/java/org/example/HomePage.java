@@ -20,6 +20,7 @@ public class HomePage extends Utils {
     public void clickonappleMacbook(){
         clickOnElement(_appleMacBookPro13Inch);
     }
+    //
 
 }
 

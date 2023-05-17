@@ -1,5 +1,5 @@
 Feature:referAFriend
-  @referAfriend
+  @referAfriend@all
   Scenario: As a user, I should able to send refer email to friend successfully
   so that, I can refer a product to friend
 
@@ -11,3 +11,4 @@ Feature:referAFriend
     And I click email a friend
     And I enter friend's email and message
     Then I should email a friend successfully
+

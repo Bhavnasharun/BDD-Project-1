@@ -8,7 +8,8 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverManager extends Utils {
     LoadProp loadProp = new LoadProp();
-    String browserName = "firefox";
+    String browserName = "chrome";
+    //
     public void openBrowser(){
         if(browserName.equalsIgnoreCase("Edge")){
             driver=new EdgeDriver();
